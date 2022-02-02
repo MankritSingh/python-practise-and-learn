@@ -6,7 +6,7 @@ def list():
         print(val,end=',')
     print("]")
     print("Accessing index mylist[3][0]:",mylist[3][0])
-    print("Negative indexing mylist[-1]:",mylist[-1]) #negative indexing start from the right side from zero
+    print("Negative indexing mylist[-1]:",mylist[-1]) #negative indexing start from the right side from 1 instead of 0 as we have no -0
     print("Slicing [1:3]:",mylist[1:3])  #slicing the last element is non inclusive
     mylist.append(4) #add element at end
 
