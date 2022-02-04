@@ -33,6 +33,13 @@ def mystring():
     print("Slicing str1[:3]:",str1[:3],)
     str3=str1+str2
     print("str3=str1+str2:",str3)
+    str="mankrit is best"
+    print(str.title())#capitilize first letter of all words
+    print(str.strip())#removes the white spaces from start and end
+    print(str.find("i"))#index of the given character or string 
+    print(str.replace("best","the very best"))
+    print("is" in str)#find occurance 
+    print("is" not in str)
 
 def set():
     print("")
